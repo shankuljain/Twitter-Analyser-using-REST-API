@@ -1,0 +1,20 @@
+How to run : 
+
+1) This program uses external jar files so you have to set the class path in order to
+   successfully compile and run the program.
+
+2) Open Terminal or MS-DOS and set the path to directory containing source files.
+
+3) Compile the program using command :
+	javac -cp twitter4j-core-4.0.3.jar Analyser.java
+
+4) Run the program using :
+	java -cp .:twitter4j-core-4.0.3.jar Analyser
+
+
+Note : 1) This program requires a working internet connection.
+       2) It is quite possible that executing the program several times in a small 
+	  period of time causes rate limit to be exhausted that is set by Twitter.
+	  In that case try executing the program after some time.
+       3) This program uses an external library that is twitter4j : a public twitter API
+	  For more : visit http://twitter4j.org/en/index.html
