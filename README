@@ -18,3 +18,5 @@ Note : 1) This program requires a working internet connection.
 	  In that case try executing the program after some time.
        3) This program uses an external library that is twitter4j : a public twitter API
 	  For more : visit http://twitter4j.org/en/index.html
+	  
+       4) Before running code, edit the code with your developer keys that is consumer key, consumer secret, access key and access secret.
